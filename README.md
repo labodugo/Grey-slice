@@ -3,7 +3,7 @@ diy medium/large format field camera made to be accesible to make, whith limited
 
 
 
-besoin 
+besoin:
 -plaques de carton gris 3mm
 -papier canson noir (aipaisseur que j'ai utiliser :)
 -2 plaques 1/4 20 ou deux plaque trepieds 
