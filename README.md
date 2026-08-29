@@ -9,7 +9,7 @@ diy medium/large format field camera made to be accesible to make, whith limited
 - 2 plaques 1/4 20 ou deux plaque trepieds 
 - papier calque ou plaque de plexyglass 
 
-;
+
 
 
 ### outils/consomable:
