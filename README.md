@@ -1,12 +1,12 @@
 # Grey-slice
-diy medium/large format field camera made to be accesible to make, whith limited tool, and base on stacked grey cardboard sheet cut eater by hand or laser cutter 
+diy medium/large format field camera made to be accesible to make, whith limited tool, and base on stacked grey cardboard sheet cut eater by hand (or laser cutter )
 
 
 
 ### materes premieres:
 - plaques de carton gris 3mm
-- papier canson noir (aipaisseur que j'ai utiliser :)
-- 2 plaques 1/4 20 ou deux plaque trepieds 
+- papier canson noir (aipaisseur que j'ai utiliser :  "" )
+- 2 plaques "1/4 20" ou deux plaque trepieds 
 - papier calque ou plaque de plexyglass 
 
 
@@ -14,6 +14,10 @@ diy medium/large format field camera made to be accesible to make, whith limited
 
 ### outils/consomable:
 - cuttter/exacto 
-- regle metalique 
+- regle metalique
+- équerre (la règle avec la bar horizontal 
 - colle a bois 
+- pencil
 - divers poids 
+
+
