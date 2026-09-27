@@ -15,7 +15,7 @@ diy medium/large format field camera made to be accesible to make, whith limited
 ### outils/consomable:
 - cuttter/exacto 
 - regle metalique
-- équerre (la règle avec la bar horizontal 
+- équerre/T spaped ruller 
 - colle a bois 
 - pencil
 - divers poids 
