@@ -88,3 +88,6 @@ because of that, it is placed on top, having it on the side tend to bend the cam
 
 
 -make the py programme print the bellow specs 
+
+
+-do a shutter (using an cable realase to drop) (parametter the slit size to shutter speed et qyue ce soit juste inputable et que ca mouline genre shutter_speed = "200", "500", "600")
