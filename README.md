@@ -1,140 +1,156 @@
 # Grey-slice
-diy medium/large format field camera made to be accesible to make, whith limited tool, and base on stacked grey cardboard sheet cut eater by hand (or laser cutter ) and paper.
+> A highly accessible, parametric, DIY medium/large format field camera built with basic tools, stacked grey cardboard, and paper. 
 
+Grey-slice is designed to make large format photography accessible. By using a parametric design and stacked 3mm cardboard layers, this camera can be built with minimal equipment—either cut by hand or with a laser cutter. 
 
-## designe
+---
 
+## 📋 Table of Contents
+- [Features & Design](#features--design)
+- [Materials & Tools](#materials--tools)
+- [Getting the Files](#getting-the-files)
+- [Build Instructions](#build-instructions)
+- [Shooting with Grey-slice](#shooting-with-grey-slice)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [License](https://github.com/labodugo/Grey-slice/edit/main/README.md#-license)
 
-### Bruild principle:
-To be easier to build, the entire camera is base on cutted stacked layer of grey cardboard glued with wood glue, the design is parametric, it can be adjusted to any size you want with some other parameters (the first real one y made was 8/20in) 
+---
 
+## ✨ Features & Design
 
-### bellow:
-The use of a diy bellow offered good advantage, like offering the possibility to change focal length and able to do lens movements.
-wile beeing relatively easy to cut and formed.
-but because the bello is made of paper, it can ware and holes can apear so it need to be regularly check and patch with simple black tape, or juste using black tape on every edge to avoid that 
+### Build Principle
+To keep things accessible, the camera body is built entirely from stacked layers of 3mm grey cardboard glued together with wood glue. The core design is parametric, meaning it can be scaled to any size (the prototype is 8x20 inches) by adjusting variables in the code.
 
+### Paper Bellows
+Using a DIY bellows provides full lens movements and the ability to change focal lengths. While made of paper (which can wear over time), it is inexpensive, easy to fold, and simple to patch with black tape. *(Tip: Pre-taping the edges can prevent pinholes from forming.)*
 
-### focusing sisteme:
+### Modular Focusing System
+The front and rear standards are independent and modular. They rely on existing gear you might already have:
+*   **Basic setup:** Two tripods (or one tripod and a flash bracket) holding the front and rear standards separately.
+*   **Advanced setup (Recommended):** One tripod holding the rear standard, with a magic arm and a macro focusing rail attached to the front standard. This allows for precise focusing, full range of movements, and easy macro work.
 
-the focusing system rely on existing gear you might already have, like tripod and macro scale, the font and rear standard are independently folded with there respective fixture point, making it verry modular, je sisteme ca be simple as only tho tripod or only one plate(like to one use for holding flashes) to hold both rear and front 
+### Film Back
+The film back features a simple, highly effective dark slide locking mechanism consisting of two rods on the side. 
+*   **Top-loading:** The dark slide is pulled from the top to prevent bending the camera or throwing it off level (though the parametric design allows you to change this to a side-pull if desired).
+*   **Light-proofing:** The dark slide remains partially in the camera during exposure to maintain light tightness.
+*   **Film mounting:** Film or photo paper is held perfectly flat using weak double-sided tape. This makes the back highly adaptable for different mediums, including objects coated in photo emulsion.
 
+### Interchangeable Lens Boards
+The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
+*   **Lens options:** A simple pinhole, a single-element lens, cheap achromatic lenses (for better aberration control), or a DIY "rapid rectilinear" lens built using two achromatic lenses mounted facing each other.
 
-, but can be upgraded by using a focusing scale to move the rear of front standard precislely,
-by favorit way do dot is one tripod holding the rear, an magic arm attached on the tripod holding the front and with a macro scale, 
+### Shutter (Obturator)
+Currently, exposures are made using a simple lens cap. A guillotine-style shutter is in development. 
 
-this design permit the full range of movement and easy macro work
+---
 
-### film back:
+## 🛠 Materials & Tools
 
-the the film back is very simple, the only notable thing is the dark plate locking maranisme, only consisting of putting two rode on the side of the slide to lock it, it gone through multiple other design but this one works the best, 
-The dark slide is no mett to be removed during the exposure, it is part of the light proofing, 
-because of that, it is placed on top, having it on the side tend to bend the camera or thing it off level 
-The film is hold in place using weak double sided tape, it ensure a verry good flattness
-And it can be easely modifiable, i have simpley modified one to use object coated in photo emltion, 
+### Raw Materials
+- 3mm grey cardboard sheets
+- Black Canson paper *(Thickness used: [Insert thickness, e.g., 160g/m²])*
+- 2x 1/4"-20 tripod mounting plates 
+- Tracing paper or frosted plexiglass (for the ground glass/focusing screen)
+- Wood glue (PVA / white glue)
+- Weak double-sided tape (for holding film)
 
-(but you can invert y and x on the parametric design il you want it on the side) 
+### Tools & Consumables
+- Metal ruler **(Mandatory for safety when cutting!)**
+- T-square or set square
+- Heavy-duty utility knife (box cutter) with fresh blades
+- X-Acto / precision craft knife
+- Mechanical pencil
+- Assorted heavy objects (books) or clamps to use as weights
+- Small paintbrush for glue
 
-### locking rods mechanisme:
+---
 
-Simple as it can be, juste to rods
+## 💻 Getting the Files
 
-### Opturator : 
+The camera's parts are generated using a parametric Python script based on SolidPython (an OpenSCAD translator). By inputting your desired dimensions, the program exports every part into ordered folders.
 
-juste lens cap (but im trying to see if a guiotine shutter could be easely implemented (one uside a set of slide with different opening for different shutter speed, (or pathern? like giving spacial effect on motion) 
+**Prerequisites:**
+1. Install [Python](https://www.python.org/)
+2. Install [SolidPython](https://github.com/SolidCode/SolidPython)
+3. Install [OpenSCAD](https://openscad.org/)
 
-### film recomendation :
+**Running the program:**
+1. Open the script and modify the variables for your desired camera size.
+2. Run the script.
+3. The program will output organized folders containing SVG/DXF files for each slice.
 
-because there is no real shutter (yet) using direcely photo paper dev as positiv or negativ (1-6 iso), and a exlusively use photo paper dev as positiv using premanganat bleach 
+**Understanding the file nomenclature:**
+Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
+*(Example: `Front_Standard_3_c.svg`)*
+*   **Front Standard:** The name of the assembly.
+*   **3:** The layer number, counting from the back of the camera to the front (this is the 3rd layer).
+*   **c:** The 3rd piece of this specific layer.
 
-### durability :
+*(Note: A future update will include a web app to generate these files online without any installation.)*
 
-beacuse of the material, if is ne verry durable, and need to be stored in a not too weet environement, but aslo bacause of the material it can be verry easely patched/ reglued 
+---
 
-### Lens/Lens plate :
+## 🔨 Build Instructions
 
-the lens plate is supper simple, juste a square of gray cardboard where you can juste cut a hole inside, as for the lens the absolute simplest would be a pin hole but as for "real" lens you can use simple 1 element lens, or achromatic lens who a super chap and offer better aberation controle, or even buid a simple "rapid recutilinear" lens using 2 achromatic lens monted iun mirror
+### 1. Tracing the Panels
+If cutting by hand, upload the DXF files to a free viewer like [Materlogic](https://materlogic.com/en/dxf-viewer) to get the exact dimensions. Use a mechanical pencil and a T-square to trace each piece onto your cardboard, ensuring the corners are perfectly square.
 
-## Desing Files
+### 2. Cutting the Cardboard
+**Safety first:** Always use a metal ruler. A plastic ruler will catch the blade and cause severe injury. 
+*   Do not try to cut through the 3mm cardboard in one pass. Make multiple light passes.
+*   Use a heavy-duty box cutter for long, straight lines (snap off or replace blades frequently).
+*   Use an X-Acto knife for detailed edges and precise corners.
 
-i have "modeled" a parametric program using solidPyhon(openSCAD translator) where you juste input your different parameter and the program directely export exery part in ordered folders
-but you need to instal python, solidpython, openscad
-and i will learn to buit a wab page were tou can directely do it onlyne witheout any instal 
+### 3. Gluing the Assembly
+Wood glue (PVA) is cheap and works perfectly for grey cardboard. 
+1. Paint the glue onto the surface using a brush for an even coat.
+2. Align the layers carefully.
+3. Place a heavy book on top or use clamps to hold it flat. **Do not apply too much pressure**, as this can warp the cardboard and ruin the fit of the parts. 
+*(Optional: You can dye the wood glue black before applying to ensure perfect light-tightness, though this is usually overkill).*
 
-## How to Buid 
+<img width="320" alt="Gluing the panels" src="https://github.com/user-attachments/assets/be3dbe97-3e83-4071-aa85-ba86a561b4f0" />
 
-### materes premieres:
-- plaques de carton gris 3mm
-- papier canson noir (aipaisseur que j'ai utiliser :  "" )
-- 2 plaques "1/4 20" ou deux plaque trepieds 
-- papier calque ou plaque de plexyglass 
+### 4. Making the Bellows
+The bellows are made from thick black Canson paper. 
 
+1. Generate your bellows pattern. (I used the calculator at [apenasimagens.com](https://apenasimagens.com/en/bellows-project-tailor-made-for-you/) — it costs ~€3 but provides a custom pattern).
+2. Slice the pattern into A4 sizes, print them, and tape them together.
+3. Place the pattern over your black paper and trace the folding lines using a ballpoint pen. **Press lightly**—just enough to score the paper without tearing it.
+4. Cut out the exterior shape. (If the pattern is larger than your paper, glue multiple sheets together).
+5. Glue the ends of the sheet to form a tube, and begin carefully folding the ridges along your scored lines.
 
-### outils/consomable:
-- cuttter/exacto 
-- regle metalique
-- équerre/T spaped ruller 
-- colle a bois 
-- pencil
-- divers poids 
+<img width="320" alt="Bellows Fold 1" src="https://github.com/user-attachments/assets/d04dfdb4-7f54-479c-83d7-7134e84f29da" />
+<img width="320" alt="Bellows Fold 2" src="https://github.com/user-attachments/assets/81d1dc75-0875-4903-abc1-2bacbd592b56" />
+<img width="320" alt="Bellows Fold 3" src="https://github.com/user-attachments/assets/1f74921d-ef1e-4af6-b975-9e20e117f207" />
+<img width="320" alt="Bellows Fold 4" src="https://github.com/user-attachments/assets/f5979992-e605-4bed-87a2-29f09e293fdb" />
+<img width="240" alt="Bellows Fold 5" src="https://github.com/user-attachments/assets/fdc94b3f-2c9c-4fbc-a48e-b73334c7fc3e" />
 
-### Running the progam :
+---
 
-you need to instal 
--python 
--solid python
--openscad 
+## 📷 Shooting with Grey-slice
 
-copy paste the programe and change values of the variable and run the progame
-you will gat a folder containing folder of each part, containing each slice corectely named, 
+### Durability & Storage
+Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a dry environment. However, its material makes it incredibly easy to repair, patch, or reglue if damaged.
 
-as for thze nomenclature 
-it is "name_of_the_part+slice_height+pices_if_this _lice_if_multiple
-like Front_Standard_3_c.svg
-where:
--front standard is the name of the big pieces, 
--3 is the sliche height (the buber is back of the camera to front, so 3 is 3rd layer from the back of ther font standard) 
--c is the 3rd pieces of this layer
+### Film Recommendations
+Because the camera currently relies on a lens cap instead of a mechanical shutter, exposure times will be long. 
+*   **Direct Positive/Negative Photo Paper:** Standard B&W darkroom paper is highly recommended (ISO 1-6). 
+*   **Reversal Processing:** You can shoot on standard photo paper and develop it as a positive using a potassium permanganate bleach process.
 
+---
 
-### tracing panels :
+## 🚀 Roadmap (To Do)
+- [ ] Allow front standard size to be independent in the code (constrained only by the rear standard size).
+- [ ] Integrate a bellows specification/pattern generator directly into the Python script.
+- [ ] Design an integrated guillotine drop-shutter triggered by a cable release. 
+- [ ] Add parametric variables for shutter slit sizes (e.g., inputting `shutter_speed = 200` to automatically calculate the slit width).
+- [ ] Host a web-based version of the generator so users don't have to install OpenSCAD/Python.
 
-to get my dimention, i just upload my dxf file to https://materlogic.com/en/dxf-viewer and get my distanceces like theis, and thene i juste tace each pieces with a criterium and i use a T ruller to get the best squarnesse possible, 
+---
 
-### Cutting panels :
+## 🤝 Contributing
+Contributions, modifications, and forks are highly encouraged! If you build your own Grey-slice or design an add-on (like a shutter mechanism or a new film back), feel free to open a Pull Request or share your build in the Issues tab.
 
-Cutting grey cardboard is easy but need some thechnic to be safe, first, you NEED a metal ruller, plastic one will catch the cutter and you WILL cut your fingers, you need to meqe multiple pass with the cutter and avoid cuttung too long distance at one, juste cut it in multiple part, 
-i use a clasical cutter who i reularly renew the blade for cutting long line and unse and x-acto to do the edje and more precise part 
-
-### gluing panels/parts  :
-
-the best glue to use is wood glue (aka vinilique glue/white glue) it is chap and work verry well, you juste paint the face with a brush and put the other face on top , make shure it is lined up, and put like an heavy book on top or using pinces, but dont put too muth pressure it risk to bend it and make the fit harder, and you can also diy the glue black if you want to ba abseloutely shur to get perfect light tightness (but kinda overkill) 
-
-<img width="320" alt="P1060828" src="https://github.com/user-attachments/assets/be3dbe97-3e83-4071-aa85-ba86a561b4f0" />
-
-
-
-### the bellow 
-
-the bello is made using thiik black canson papier, 
-for the pather i juste used the calculator https://apenasimagens.com/en/bellows-project-tailor-made-for-you/ (who is payd like 3€ and dont want free sharing of the pathern 
-after getting the pathen i slice it in multiple A4 sheet tha i pring and tape together, then i trace each sine with a ball pen to mark the edjes(dont press too mutch)  and the cut the exterior, (if the partern is too big for your black paper, 
-then glue your sheet in a roll and stard forming the rigies
-
-<img width="320" alt="P1060814" src="https://github.com/user-attachments/assets/d04dfdb4-7f54-479c-83d7-7134e84f29da" />
-<img width="320" alt="P1060821" src="https://github.com/user-attachments/assets/81d1dc75-0875-4903-abc1-2bacbd592b56" />
-<img width="320" alt="P1060822" src="https://github.com/user-attachments/assets/1f74921d-ef1e-4af6-b975-9e20e117f207" />
-<img width="320" alt="P1060823" src="https://github.com/user-attachments/assets/f5979992-e605-4bed-87a2-29f09e293fdb" />
-<img width="240" alt="P1060824" src="https://github.com/user-attachments/assets/fdc94b3f-2c9c-4fbc-a48e-b73334c7fc3e" />
-
-
-
-
-## to do 
--make the font standards independent in size but cannot be larger in only one direction than the rear standard 
-
-
--make the py programme print the bellow specs 
-
-
--do a shutter (using an cable realase to drop) (parametter the slit size to shutter speed et qyue ce soit juste inputable et que ca mouline genre shutter_speed = "200", "500", "600")
+## 📄 License
+[Insert your chosen license here, e.g., MIT License, Creative Commons Attribution-NonCommercial (CC BY-NC), etc.]
