@@ -133,27 +133,23 @@ The bellows are made from thick black Canson paper.
 ## 📷 Shooting with Grey-slice
 
 ### Durability & Storage
-Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a dry environment. However, its material makes it incredibly easy to repair, patch, or reglue if damaged.
+Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
 
 ### Film Recommendations
-Because the camera currently relies on a lens cap instead of a mechanical shutter, exposure times will be long. 
+Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. 
 *   **Direct Positive/Negative Photo Paper:** Standard B&W darkroom paper is highly recommended (ISO 1-6). 
 *   **Reversal Processing:** You can shoot on standard photo paper and develop it as a positive using a potassium permanganate bleach process.
 
 ---
 
-## 🚀 Roadmap (To Do)
-make variation tab for lastzer cut, acrilique panel 
-- [ ] Allow front standard size to be independent in the code (constrained only by the rear standard size).
-- [ ] Integrate a bellows specification/pattern generator directly into the Python script.
-- [ ] Design an integrated guillotine drop-shutter triggered by a cable release. 
-- [ ] Add parametric variables for shutter slit sizes (e.g., inputting `shutter_speed = 200` to automatically calculate the slit width).
-- [ ] Host a web-based version of the generator so users don't have to install OpenSCAD/Python.
+To Do
 
----
+-Allow front standard size to be independent from the back in size (for now it is equal to rear standard height).
 
-## 🤝 Contributing
-Contributions, modifications, and forks are highly encouraged! If you build your own Grey-slice or design an add-on (like a shutter mechanism or a new film back), feel free to open a Pull Request or share your build in the Issues tab.
+-Integrate a bellows pattern generator directly into the Python script.
 
-## 📄 License
-[Insert your chosen license here, e.g., MIT License, Creative Commons Attribution-NonCommercial (CC BY-NC), etc.]
+-include diy lens plans
+
+-Design and integrate a guillotine shutter with parametric variables for different shutter speed.
+
+-Host a web-based version of the generator so users don't have to install OpenSCAD/Python.
