@@ -62,7 +62,7 @@ The camera's parts are generated using a parametric Python script based on Solid
 1. Install [Python](https://www.python.org/)
 2. Install [SolidPython](https://github.com/SolidCode/SolidPython)
 3. Install [OpenSCAD](https://openscad.org/)
-
+4. Install [VScode](https://code.visualstudio.com/)
 
 **Running the program:**
 1. Open the script and modify the variables for your desired camera size and other parameter :
