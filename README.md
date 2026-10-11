@@ -46,8 +46,8 @@ Currently, exposures are made using a simple lens cap (relying in verry low iso 
 ### Tools & Consumables
 - Metal ruler (Mandatory for cutting with craft knife)
 - T-square or set square
-- Heavy-duty utility knife (box cutter) with fresh blades
-- X-Acto / precision craft knife
+- utility knif
+- precision craft knife
 - Précise pénil
 - Assorted heavy objects (books) or clamps
 - paintbrush for glue
