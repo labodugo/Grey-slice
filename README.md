@@ -130,15 +130,17 @@ The bellows are made from thick black Canson paper.
 
 ---
 
-## 📷 Shooting with Grey-slice
+## Shooting with Grey-slice
 
 ### Durability & Storage
 Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
 
 ### Film Recommendations
-Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. 
-*   **Direct Positive/Negative Photo Paper:** Standard B&W darkroom paper is highly recommended (ISO 1-6). 
-*   **Reversal Processing:** You can shoot on standard photo paper and develop it as a positive using a potassium permanganate bleach process.
+Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So the iso need to be low.
+
+-I highly recommend the use of Photo Paper, eather in negative who is realy easy to scan with standard home scanner.
+
+-Or positive photo paper, eather direct positive one or standard paper dev as positive with permanganate bleach (or other) who Lett directely encadrer la photo.
 
 ---
 
