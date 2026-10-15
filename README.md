@@ -159,3 +159,5 @@ To Do
 -add variable for laser with compensation 
 
 -do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature 
+
+-do a film back who une 120 film 
