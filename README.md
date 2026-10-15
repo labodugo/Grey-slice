@@ -160,4 +160,4 @@ To Do
 
 -do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature 
 
--do a film back who une 120 film 
+-do a film back who use 120 film (only using 2 part (sandwiches using back locking barr?)
