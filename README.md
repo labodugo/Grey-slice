@@ -136,7 +136,7 @@ The bellows are made from thick black Canson paper.
 Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
 
 ### Film Recommendations
-Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So the iso need to be low.
+Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So the iso need to be low (but you can also juste stack nd or close aperture)
 
 -I highly recommend the use of Photo Paper, eather in negative who is realy easy to scan with standard home scanner.
 
@@ -148,10 +148,14 @@ To Do
 
 -Allow front standard size to be independent from the back in size (for now it is equal to rear standard height).
 
--Integrate a bellows pattern generator directly into the Python script.
+-Integrate a bellows pattern generator directly into the Python script. (for now, paid online generator )
 
--include diy lens plans
+-include diy lens plans using standard achromatic lenses (in a general section about lenses) 
 
 -Design and integrate a guillotine shutter with parametric variables for different shutter speed.
 
 -Host a web-based version of the generator so users don't have to install OpenSCAD/Python.
+
+-add variable for laser with compensation 
+
+-do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature 
