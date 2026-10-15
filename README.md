@@ -150,7 +150,7 @@ To Do
 
 -Integrate a bellows pattern generator directly into the Python script. (for now, paid online generator )
 
--include diy lens plans using standard achromatic lenses (in a general section about lenses) 
+-include diy lens plans using standard achromatic lenses (in a general section about lenses) and do a housing disinge practical to hand cut (not too mutch round peces)
 
 -Design and integrate a guillotine shutter with parametric variables for different shutter speed.
 
