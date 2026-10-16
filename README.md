@@ -1,7 +1,7 @@
 # Grey-slice
-A highly accessible, parametric, DIY medium/large format field camera built with basic tools, stacked grey cardboard, and paper. 
+A highly accessible, parametric, DIY medium/large format field camera who can be built with basic tools, stacked grey cardboard, and paper.
+And can easily be modified/adapted and built with different material (like laser cut acrylic panels)
 
-### Grey-slice is designed to make large format photography accessible. By using a parametric design and stacked grey cardboard layers, this camera can be built with minimal equipment, either cut by hand or with a laser cutter. 
 
 ---
 
@@ -10,7 +10,7 @@ A highly accessible, parametric, DIY medium/large format field camera built with
 
 ### Build Principle
 To keep things accessible, the camera body is built entirely from stacked layers of grey cardboard glued together with wood glue. The core design is parametric, meaning it can be scaled to any size (My first prototype was 8x20 inches).
-And because the desing is simple it can be easely medified (as an exemple i mmodified on back to a verry profond on to hold objects coated in photo emultion).
+And because the desing is simple it can be easely modified (as an exemple i modified a back to be verry profond on to hold objects coated in photo emultion in the back).
 
 ### Paper Bellows
 Using a DIY bellows provides full lens movements and the ability to change focal lengths. While made of paper (which can wear over time), it is inexpensive, easy to fold, and simple to patch with black tape. (Tip: Pre-taping the edges can prevent small hole from forming.)
@@ -97,12 +97,16 @@ Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
 
 ### 1. Tracing the Panels
 If cutting by hand,you can upload the DXF files to a free viewer like [Materlogic](https://materlogic.com/en/dxf-viewer) to get the exact dimensions. Use a pencil and a set-square to trace each piece onto your cardboard, ensuring the corners are perfectly square and parallel.
+you can also print all pieces on paper and litly glue the paper on grey cardboard to see where to cut directly 
 
 ### 2. Cutting the Cardboard
 **Safety first:** Always use a metal ruler. A plastic ruler will catch the blade and cut your fingers. 
 *   Do not try to cut through the 3mm cardboard in one pass. Make multiple light passes.
 *   You cane use a utility-knife straight lines (don't forget to snap off or replace blades frequently).
 *   And an X-Acto knife for detailed edges and precise corners.
+
+
+you can also , if you have one, laser cut everyching, or order them 
 
 ### 3. Gluing the Assembly
 Wood glue (PVA) is cheap and works perfectly for grey cardboard. 
@@ -164,3 +168,5 @@ To Do
 
 
 -message the guy form the online bellow calculator to see if if I can put the pattern for the 6/17.8 freely on the repo (and pre cut it in multiple A4 easy to align with alignment lines)
+
+-implement a toggle to whith on or off measurements directly on the file 
