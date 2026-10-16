@@ -26,8 +26,6 @@ As for the film monting, it is ment to be held by weak double sided tape (who is
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
-As for diy lens i recommande : simple pinhole, single-element lens, cheap achromatic lenses, or a DIY "rapid rectilinear" lens built using two achromatic lenses mounted in mirror.
-But you can also easely mont "real" lens on it.
 
 ### Shutter
 Currently, exposures are made using a simple lens cap (relying in verry low iso and/nd filter) but a guillotine-style shutter is in development (only made in grey cardboard but letting use a selection of shutter speed by using guillotine with different size slit) . 
