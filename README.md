@@ -93,33 +93,33 @@ Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
 
 ---
 
-## 🔨 Build Instructions
+## Build Instructions
 
 ### 1. Tracing the Panels
-If cutting by hand, upload the DXF files to a free viewer like [Materlogic](https://materlogic.com/en/dxf-viewer) to get the exact dimensions. Use a mechanical pencil and a T-square to trace each piece onto your cardboard, ensuring the corners are perfectly square.
+If cutting by hand,you can upload the DXF files to a free viewer like [Materlogic](https://materlogic.com/en/dxf-viewer) to get the exact dimensions. Use a pencil and a set-square to trace each piece onto your cardboard, ensuring the corners are perfectly square and parallel.
 
 ### 2. Cutting the Cardboard
-**Safety first:** Always use a metal ruler. A plastic ruler will catch the blade and cause severe injury. 
+**Safety first:** Always use a metal ruler. A plastic ruler will catch the blade and cut your fingers. 
 *   Do not try to cut through the 3mm cardboard in one pass. Make multiple light passes.
-*   Use a heavy-duty box cutter for long, straight lines (snap off or replace blades frequently).
-*   Use an X-Acto knife for detailed edges and precise corners.
+*   You cane use a utility-knife straight lines (don't forget to snap off or replace blades frequently).
+*   And an X-Acto knife for detailed edges and precise corners.
 
 ### 3. Gluing the Assembly
 Wood glue (PVA) is cheap and works perfectly for grey cardboard. 
 1. Paint the glue onto the surface using a brush for an even coat.
 2. Align the layers carefully.
 3. Place a heavy book on top or use clamps to hold it flat. **Do not apply too much pressure**, as this can warp the cardboard and ruin the fit of the parts. 
-*(Optional: You can dye the wood glue black before applying to ensure perfect light-tightness, though this is usually overkill).*
+*(Optional: You can dye the wood glue black before applying to ensure perfect light-tightness, though this is is overkill).*
 
 <img width="320" alt="Gluing the panels" src="https://github.com/user-attachments/assets/be3dbe97-3e83-4071-aa85-ba86a561b4f0" />
 
 ### 4. Making the Bellows
-The bellows are made from thick black Canson paper. 
+The bellows are made from thick black Canson paper.(160-200g)
 
 1. Generate your bellows pattern. (I used the calculator at [apenasimagens.com](https://apenasimagens.com/en/bellows-project-tailor-made-for-you/) — it costs ~€3 but provides a custom pattern).
 2. Slice the pattern into A4 sizes, print them, and tape them together.
-3. Place the pattern over your black paper and trace the folding lines using a ballpoint pen. **Press lightly**—just enough to score the paper without tearing it.
-4. Cut out the exterior shape. (If the pattern is larger than your paper, glue multiple sheets together).
+3. Tape the pattern over your black paper and trace the folding lines using a ballpoint pen. **Press lightly** just enough to score the paper without tearing it.(If the pattern is larger than your paper, glue multiple sheets together).
+4. Cut out the exterior shape. 
 5. Glue the ends of the sheet to form a tube, and begin carefully folding the ridges along your scored lines.
 
 <img width="320" alt="Bellows Fold 1" src="https://github.com/user-attachments/assets/d04dfdb4-7f54-479c-83d7-7134e84f29da" />
@@ -130,17 +130,17 @@ The bellows are made from thick black Canson paper.
 
 ---
 
-## Shooting with Grey-slice
+## Using Grey-slice
 
 ### Durability & Storage
-Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
+Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a relatively dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
 
 ### Film Recommendations
 Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So the iso need to be low (but you can also juste stack nd or close aperture)
 
--I highly recommend the use of Photo Paper, eather in negative who is realy easy to scan with standard home scanner.
+I mostly use photo paper developed in reversal chemistry, (permanganates potatium + sulfuric acide bleach) this give a verry nice way to present and encadre the picture who where directely in the camera.
 
--Or positive photo paper, eather direct positive one or standard paper dev as positive with permanganate bleach (or other) who Lett directely encadrer la photo.
+
 
 ---
 
@@ -161,3 +161,6 @@ To Do
 -do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature 
 
 -do a film back who use 120 film (only using 2 part (sandwiches using back locking barr?))
+
+
+-message the guy form the online bellow calculator to see if if I can put the pattern for the 6/17.8 freely on the repo (and pre cut it in multiple A4 easy to align with alignment lines)
