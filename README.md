@@ -126,7 +126,7 @@ Wood glue (PVA) is cheap and works perfectly for grey cardboard.
 ### 4. Making the Bellows
 The bellows are made from thick black Canson paper.(160-200g)
 
-1. Generate your bellows pattern. (I used the calculator at [apenasimagens.com](https://apenasimagens.com/en/bellows-project-tailor-made-for-you/) — it costs ~€3 but provides a custom pattern).
+1. Generate your bellows pattern. (I used the calculator at [apenasimagens.com](https://apenasimagens.com/en/bellows-project-tailor-made-for-you/) — it costs 25,00 BRL (≈4€50) but provides a custom pattern).
 2. Slice the pattern into A4 sizes, print them, and tape them together.
 3. Tape the pattern over your black paper and trace the folding lines using a ballpoint pen. **Press lightly** just enough to score the paper without tearing it.(If the pattern is larger than your paper, glue multiple sheets together).
 4. Cut out the exterior shape. 
