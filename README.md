@@ -13,7 +13,7 @@ To keep things accessible, the camera body is  built entirely from stacked layer
 And because the desing is simple it can be easely modified/adapted.
 
 ### Paper Bellows
-Using a DIY bellows provides full lens movements and the ability to change focal lengths. While made of paper (which can wear over time), it is inexpensive, easy to fold, and simple to patch/reinforce with black tape.
+Using a DIY bellows provides full lens movements and the ability to change focal lengths. While made of paper, it is inexpensive, easy to fold, and simple to patch/reinforce with black tape.
 
 ### Modular Focusing System
 The front and rear standards are independent and modular. They rely on simple tripode hole to attache on existing gear you might already have:
@@ -21,22 +21,19 @@ The front and rear standards are independent and modular. They rely on simple tr
 *   My setup : One tripod holding the rear standard with macro focusing rail bewin, with a magic arm attached to the front standard. This allows for precise focusing and movement.
 
 ### Film Back
-The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dard-slide is never fully remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
+The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dark-slide is never fully remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
 As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
 
 ### Shutter
-Currently, exposures are made using a simple lens cap (relying in verry low iso or/and nd filter) but a guillotine-style shutter is in development (only made in grey cardboard but letting use a selection of shutter speed by using guillotine with different size slit) . 
+Currently, exposures are made using a simple lens cap (relying in verry low iso or/and nd filter) but a guillotine-style shutter is in development. 
 
 ### material
 The camera can be built with multiple kind of material, but the easier and most accessible are : grey cardboard for the body and paper for the bellow,
 
-but other material could be used if you have the tools or will order cutter part online, like:
--black pmma plate laser cutted, 
--hard wood sheet 
--leather/fabric for the bellow (but might need better methods to fix to the body)
+but other material could be used if you have the tools or will order cutter part online, like opaque plastic plate laser cutted, hard wood sheet, leather/fabric for the bellow...
 
 ---
 
@@ -44,10 +41,10 @@ but other material could be used if you have the tools or will order cutter part
 
 ### Raw Materials
 - grey cardboard sheets (3mm preference)
-- Black Canson paper (Thickness used: around 300g)
+- Black Canson paper (160-200g)
 - 2x 1/4"-20 tripod mounting plates 
-- Tracing paper or plexiglass + fine grinding powder (for the ground glass)
-- Wood glue (PVA / white glue)
+- Tracing paper or plexiglass + fine grinding powder
+- Wood glue
 
 ### Tools & Consumables
 - Metal ruler (Mandatory for cutting with craft knife)
@@ -55,7 +52,7 @@ but other material could be used if you have the tools or will order cutter part
 - utility knif
 - precision craft knife
 - Précise pénil
-- Assorted heavy objects (books) or clamps
+- somes flat heavy objects (books) or clamps
 - paintbrush for glue
 
 ---
@@ -69,9 +66,11 @@ The camera's parts are generated using a parametric Python script based on Solid
 2. Install [SolidPython](https://github.com/SolidCode/SolidPython)
 3. Install [OpenSCAD](https://openscad.org/)
 4. Install [VScode](https://code.visualstudio.com/)
+5. Install python and openscad addon on vscode
+
 
 **Running the program:**
-1. Open the script and modify the variables for your desired camera size and other parameter :
+1. Open the script with vs code and open the programme folder inside vscode, modify the variables for your desired camera size and other parameter :
    -file_format: Can be `".dxf"`, `".svg"` or `".pdf"`
    -previs = `False` will outpout the files in ordered folder, `True` will generate a .scad to vew in openSCAD
    -openscad_path = put the path to the openscad .exe like `"D:\Programmes\openscad\openscad.exe"`
@@ -95,7 +94,7 @@ Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
 *   `3`: The layer number, counting from the back of the camera to the front (this is the 3rd layer).
 *   `c`: The 3rd piece of this specific layer.
 
-*(Note: A future update will include a web app to generate these files online without any installation.)*
+*(Note: I will at some point include a web app to generate these files online without any installation.)*
 
 ---
 
@@ -103,12 +102,12 @@ Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
 
 ### 1. Tracing the Panels
 If cutting by hand,you can upload the DXF files to a free viewer like [Materlogic](https://materlogic.com/en/dxf-viewer) to get the exact dimensions. Use a pencil and a set-square to trace each piece onto your cardboard, ensuring the corners are perfectly square and parallel.
-you can also print all pieces on paper and litly glue the paper on grey cardboard to see where to cut directly 
+you can also print all pieces on paper and glue (with a light glue spray) the paper on grey cardboard to see where to cut directly 
 
 ### 2. Cutting the Cardboard
 **Safety first:** Always use a metal ruler. A plastic ruler will catch the blade and cut your fingers. 
 *   Do not try to cut through the 3mm cardboard in one pass. Make multiple light passes.
-*   You cane use a utility-knife straight lines (don't forget to snap off or replace blades frequently).
+*   You cane use a utility-knife straight lines (don't forget to snap off or replace blades frequently to get cleaner result).
 *   And an X-Acto knife for detailed edges and precise corners.
 
 
@@ -118,7 +117,7 @@ you can also , if you have one, laser cut everyching, or order them
 Wood glue (PVA) is cheap and works perfectly for grey cardboard. 
 1. Paint the glue onto the surface using a brush for an even coat.
 2. Align the layers carefully.
-3. Place a heavy book on top or use clamps to hold it flat. **Do not apply too much pressure**, as this can warp the cardboard and ruin the fit of the parts. 
+3. Place a heavy book on top or use clamps to hold it flat. **Do not apply too much pressure**, as this can warp the cardboard and make harder the fit of the parts. 
 *(Optional: You can dye the wood glue black before applying to ensure perfect light-tightness, though this is is overkill).*
 
 <img width="320" alt="Gluing the panels" src="https://github.com/user-attachments/assets/be3dbe97-3e83-4071-aa85-ba86a561b4f0" />
@@ -127,7 +126,7 @@ Wood glue (PVA) is cheap and works perfectly for grey cardboard.
 The bellows are made from thick black Canson paper.(160-200g)
 
 1. Generate your bellows pattern. (I used the calculator at [apenasimagens.com](https://apenasimagens.com/en/bellows-project-tailor-made-for-you/) — it costs 25,00 BRL (≈4€50) but provides a custom pattern).
-2. Slice the pattern into A4 sizes, print them, and tape them together.
+2. Slice the pattern into multiple A4 sheet, print them, and tape them together.
 3. Tape the pattern over your black paper and trace the folding lines using a ballpoint pen. **Press lightly** just enough to score the paper without tearing it.(If the pattern is larger than your paper, glue multiple sheets together).
 4. Cut out the exterior shape. 
 5. Glue the ends of the sheet to form a tube, and begin carefully folding the ridges along your scored lines.
@@ -144,6 +143,13 @@ The bellows are made from thick black Canson paper.(160-200g)
 
 ### Durability & Storage
 Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a relatively dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
+
+###Transport 
+The bellow make the camera relatively compact when folded and with mini tripod, everything can fit in a small camera bag,
+event and ULF vertion, like 8/20 inch,can fit in a bag, with the tripod on the side, and other accessories in a small bag.
+
+
+
 
 ### Film Recommendations
 Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So a verry low iso is helpful.
