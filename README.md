@@ -156,6 +156,8 @@ I mostly use photo paper developed in reversal chemistry, (permanganates potatiu
 
 To Do
 
+-add eather a print bellow specification or .txt with calculations 
+
 -Allow front standard size to be independent from the back in size (for now it is equal to rear standard height).
 
 -Integrate a bellows pattern generator directly into the Python script. (for now, paid online generator )
