@@ -30,6 +30,14 @@ The lens board is extremely simple: a square of grey cardboard with a hole cut i
 ### Shutter
 Currently, exposures are made using a simple lens cap (relying in verry low iso and/nd filter) but a guillotine-style shutter is in development (only made in grey cardboard but letting use a selection of shutter speed by using guillotine with different size slit) . 
 
+### material
+The camera can be built with multiple kind of material, but the easier and most accessible are : grey cardboard for the body and paper for the bellow,
+
+but other material could be used if you have the tools or will order cutter part online, like:
+-black pmma plate laser cutted, 
+-hard wood sheet 
+-leather/fabric for the bellow (but might need better methods to fix to the body)
+
 ---
 
 ##  Materials & Tools
@@ -138,9 +146,9 @@ The bellows are made from thick black Canson paper.(160-200g)
 Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a relatively dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
 
 ### Film Recommendations
-Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So the iso need to be low (but you can also juste stack nd or close aperture)
+Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So a verry low iso is helpful.
 
-I mostly use photo paper developed in reversal chemistry, (permanganates potatium + sulfuric acide bleach) this give a verry nice way to present and encadre the picture who where directely in the camera.
+I mostly use photo paper developed in reversal chemistry, (permanganates potatium + sulfuric acide bleach) this give a verry nice way to present and encadre the pictur who where directely in the camera.
 
 
 
@@ -168,3 +176,7 @@ To Do
 -message the guy form the online bellow calculator to see if if I can put the pattern for the 6/17.8 freely on the repo (and pre cut it in multiple A4 easy to align with alignment lines)
 
 -implement a toggle to whith on or off measurements directly on the file 
+
+- different side finish ? like whave patern? 
+
+---
