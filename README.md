@@ -9,26 +9,26 @@ And can easily be modified/adapted and built with different material (like laser
 ##  Features & Design
 
 ### Build Principle
-To keep things accessible, the camera body is built entirely from stacked layers of grey cardboard glued together with wood glue. The core design is parametric, meaning it can be scaled to any size (My first prototype was 8x20 inches).
-And because the desing is simple it can be easely modified (as an exemple i modified a back to be verry profond on to hold objects coated in photo emultion in the back).
+To keep things accessible, the camera body is  built entirely from stacked layers of grey cardboard glued together with wood glue(but other material could be used). The core design is parametric, meaning it can be scaled to any size (My first prototype was 8x20 inches).
+And because the desing is simple it can be easely modified/adapted.
 
 ### Paper Bellows
-Using a DIY bellows provides full lens movements and the ability to change focal lengths. While made of paper (which can wear over time), it is inexpensive, easy to fold, and simple to patch with black tape. (Tip: Pre-taping the edges can prevent small hole from forming.)
+Using a DIY bellows provides full lens movements and the ability to change focal lengths. While made of paper (which can wear over time), it is inexpensive, easy to fold, and simple to patch/reinforce with black tape.
 
 ### Modular Focusing System
 The front and rear standards are independent and modular. They rely on simple tripode hole to attache on existing gear you might already have:
-*   Basic setup: Two tripods (or one tripod and a flash bracket) holding the front and rear standards separately.
+*   Basic setup: Two tripods (or one tripod and a flash plate) holding the front and rear standards separately.
 *   My setup : One tripod holding the rear standard with macro focusing rail bewin, with a magic arm attached to the front standard. This allows for precise focusing and movement.
 
 ### Film Back
-The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dard-slide is never really remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
+The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dard-slide is never fully remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
 As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
 
 ### Shutter
-Currently, exposures are made using a simple lens cap (relying in verry low iso and/nd filter) but a guillotine-style shutter is in development (only made in grey cardboard but letting use a selection of shutter speed by using guillotine with different size slit) . 
+Currently, exposures are made using a simple lens cap (relying in verry low iso or/and nd filter) but a guillotine-style shutter is in development (only made in grey cardboard but letting use a selection of shutter speed by using guillotine with different size slit) . 
 
 ### material
 The camera can be built with multiple kind of material, but the easier and most accessible are : grey cardboard for the body and paper for the bellow,
@@ -170,7 +170,12 @@ To Do
 
 -add variable for laser with compensation 
 
--do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature 
+-do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature:
+_film
+_first_wall
+_second_wall(-tolerence)
+_third_wall(-tolerence) 
+
 
 -do a film back who use 120 film (only using 2 part (sandwiches using back locking barr?))
 
