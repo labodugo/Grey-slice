@@ -188,7 +188,7 @@ _third_wall(-tolerence)
 
 -message the guy form the online bellow calculator to see if if I can put the pattern for the 6/17.8 freely on the repo (and pre cut it in multiple A4 easy to align with alignment lines)
 
--implement a toggle to whith on or off measurements directly on the file 
+-make a pdf who name every measurement and make the programme create a txt with every measurement 
 
 - different side finish ? like whave patern? 
 
