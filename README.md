@@ -23,7 +23,7 @@ The front and rear standards are independent and modular. They rely on simple tr
 
 ### Film Back
 The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dark-slide is never fully remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
-As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme(like reels on the side or other)
+As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme(like reels on the side or other method)
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
@@ -32,7 +32,7 @@ The lens board is extremely simple: a square of grey cardboard with a hole cut i
 Currently, exposures are made using a simple lens cap (relying in verry low iso or/and nd filter/small aperture) but a guillotine-style shutter is in development.
 
 ### material
-The camera can be built with multiple kind of material, but the easier and most accessible are : grey cardboard for the body and paper for the bellow, both who can be found at art sh
+The camera can be built with multiple kind of material, but the easier and most accessible are : grey cardboard for the body and paper for the bellow, both who can be found at art store
 
 but other material could be used if you have the tools or will order cutter part online, like opaque plastic plate laser cutted, hard wood sheet, leather/fabric for the bellow...
 
@@ -48,7 +48,7 @@ but other material could be used if you have the tools or will order cutter part
 - Wood glue
 
 ### Tools & Consumables
-- Metal ruler (Mandatory for cutting with craft knife)
+- Metal ruler (Mandatory for cutting with utility knife)
 - T-square or set square
 - utility knif
 - precision craft knife
@@ -60,7 +60,14 @@ but other material could be used if you have the tools or will order cutter part
 
 ##  Getting the plan
 
-The camera's parts are generated using a parametric Python script based on SolidPython (an OpenSCAD translator). By inputting your desired dimensions, the program exports every part into ordered folders.
+the files for the 6/17.8cm vertion are direcly on the repo on dif ferent format:
+-dxf and svg for laser cut
+-annotated pdf at scale for hand cutting
+(I chose 6/17.8 because it can be cut in 4 from 24/17.8 cm standard photo pàper)
+
+
+
+But if you want any other size, the camera's parts  generated using a parametric Python script based on SolidPython (an OpenSCAD translator). By inputting your desired dimensions, the program exports every part into ordered folders.
 
 **Prerequisites:**
 1. Install [Python](https://www.python.org/)
