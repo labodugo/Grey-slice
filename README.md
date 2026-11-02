@@ -1,6 +1,6 @@
 # Grey-slice  
 # REPO NOTE FINISHED, NOT READY YET 
-A highly accessible, parametric, DIY medium/large format field camera who can be built with basic tools, stacked grey cardboard, and paper.
+A mostly accessible, parametric, DIY medium/large format field camera who can be built with basic tools, stacked grey cardboard, and paper.
 And can easily be modified/adapted and built with different material (like laser cut acrylic panels)
 
 
@@ -23,16 +23,16 @@ The front and rear standards are independent and modular. They rely on simple tr
 
 ### Film Back
 The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dark-slide is never fully remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
-As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme
+As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme(like reels on the side or other)
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
 
 ### Shutter
-Currently, exposures are made using a simple lens cap (relying in verry low iso or/and nd filter) but a guillotine-style shutter is in development. 
+Currently, exposures are made using a simple lens cap (relying in verry low iso or/and nd filter/small aperture) but a guillotine-style shutter is in development.
 
 ### material
-The camera can be built with multiple kind of material, but the easier and most accessible are : grey cardboard for the body and paper for the bellow,
+The camera can be built with multiple kind of material, but the easier and most accessible are : grey cardboard for the body and paper for the bellow, both who can be found at art sh
 
 but other material could be used if you have the tools or will order cutter part online, like opaque plastic plate laser cutted, hard wood sheet, leather/fabric for the bellow...
 
@@ -164,6 +164,17 @@ I mostly use photo paper developed in reversal chemistry, (permanganates potatiu
 
 To Do
 
+-clean the read me 
+    add pictures, add 6/17 results 
+    
+-juste rename the "export" folder to be like 
+"export_svg_60_170"
+
+---
+make public + Reddit 
+---
+
+
 -add eather a print bellow specification or .txt with calculations 
 
 -Allow front standard size to be independent from the back in size (for now it is equal to rear standard height).
@@ -174,7 +185,9 @@ To Do
 
 -Design and integrate a guillotine shutter with parametric variables for different shutter speed.
 
--Host a web-based version of the generator so users don't have to install OpenSCAD/Python.
+-reright to be only python who right Svg file directly. 
+
+-Host a web-based version of the generator(or juste recommand a web python interface to juste paste the programme inside (but how file work? need to compressed before?).
 
 -add variable for laser with compensation 
 
