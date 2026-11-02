@@ -81,7 +81,7 @@ But if you want any other size, the camera's parts  generated using a parametric
 **Running the program:**
 1. Open the script with vs code and open the programme folder inside vscode, modify the variables for your desired camera size and other parameter :
    -file_format: Can be `".dxf"`, `".svg"` or `".pdf"`
-   -previs = `False` will outpout the files in ordered folder, `True` will generate a .scad to vew in openSCAD
+   -previs = `False` will outpout the files in ordered folder, `True` will generate a .scad to prevew in openSCAD
    -openscad_path = put the path to the openscad .exe like `"D:\Programmes\openscad\openscad.exe"`
    -film_height = height of the film in mm (like any other value) you can intervert height and lenght to put the film holder slit on the side
    -film_length = 
@@ -94,7 +94,7 @@ But if you want any other size, the camera's parts  generated using a parametric
    -tolerance_fine = is the tolerences of the locking mechanisme
    
 3. Run the script.
-4. The program will output in the program location organized folders containing SVG/DXF files for each slice.
+4. The program will output in the program location organized folders containing SVG/DXF/pdf files for each slice.
 
 **Understanding the file nomenclature:**
 Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
