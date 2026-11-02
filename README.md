@@ -69,6 +69,7 @@ The camera's parts are generated using a parametric Python script based on Solid
 4. Install [VScode](https://code.visualstudio.com/)
 5. Install python and openscad addon on vscode
 
+(it should be possible to run the programme with fewer programmes)
 
 **Running the program:**
 1. Open the script with vs code and open the programme folder inside vscode, modify the variables for your desired camera size and other parameter :
