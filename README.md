@@ -1,4 +1,4 @@
-# Grey-slice
+# Grey-slice   REPO NOTE FINISHED, NOT READY YET 
 A highly accessible, parametric, DIY medium/large format field camera who can be built with basic tools, stacked grey cardboard, and paper.
 And can easily be modified/adapted and built with different material (like laser cut acrylic panels)
 
