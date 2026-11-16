@@ -1,4 +1,4 @@
-# Grey-slice  
+et# Grey-slice  
 # REPO NOTE FINISHED, NOT READY YET 
 A mostly accessible, parametric, DIY medium/large format field camera who can be built with basic tools, stacked grey cardboard, and paper.
 And can easily be modified/adapted and built with different material (like laser cut acrylic panels)
@@ -77,7 +77,6 @@ photos de tt les outils nécessaires
 The files for the 6/17.8cm vertion are direcly on the repo on différent format:
 -dxf and svg for laser cut
 -annotated pdf at scale for hand cutting
-(I chose 6/17.8 because it can be cut in 4 from 24/17.8 cm standard photo pàper)
 
 
 
@@ -106,7 +105,8 @@ But if you want any other size, the camera's parts  generated using a parametric
    -margin_film = is the margine betwine the side of the film and the wall 
    -tolerance_between_parts = is the tolerences bewine front standard-lens plate and back standard and film holder 
    -tolerance_fine = is the tolerences of the locking mechanisme
-  
+ 
+
 photo des variables 
 
 
@@ -138,6 +138,9 @@ you can also print all pieces .pdf on paper and glue (with a light glue spray) t
 *   And an X-Acto knife for detailed edges and precise corners.
 
 you can also , if you have one, laser cut everyching, or inse an online laser cutting services.
+
+photo de découpe 
+
 
 ### 3. Gluing the Assembly
 Wood glue (PVA) is cheap and works perfectly for grey cardboard. 
@@ -174,7 +177,7 @@ Because the camera is made of paper and cardboard, it is not weather-sealed and 
 The bellow make the camera relatively compact when folded and with mini tripod, everything can fit in a small camera bag,
 event and ULF vertion, like 8/20 inch,can fit in a bag, with the tripod on the side, and other accessories in a small bag.
 
-
+photo de l'appareil dans le petit sac, a l'intérieur et extérieur 
 
 
 ### Film Recommendations
@@ -182,6 +185,11 @@ Because the camera currently relies on a lens cap instead of a mechanical shutte
 
 I mostly use photo paper developed in reversal chemistry, (permanganates potatium + sulfuric acide bleach) this give a verry nice way to present and encadre the pictur who where directely in the camera.
 
+I have built 2 size for me, 
+
+an ulf 50/20 cm cut by hand (≈8/20 inch)who use 40/50 paper cut in half.
+
+And a smaller 6/17.8 laser cutted (who use 24/17.8 cut in four)
 
 
 ---
