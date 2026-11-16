@@ -7,14 +7,22 @@ And can easily be modified/adapted and built with different material (like laser
 ---
 
 
+joli photo du truc 
+
+
 ##  Features & Design
 
 ### Build Principle
 To keep things accessible, the camera body is  built entirely from stacked layers of grey cardboard glued together with wood glue(but other material could be used). The core design is parametric, meaning it can be scaled to any size (My first prototype was 8x20 inches).
 And because the desing is simple it can be easely modified/adapted.
 
+
+
+
 ### Paper Bellows
 Using a DIY bellows provides full lens movements and the ability to change focal lengths. While made of paper, it is inexpensive, easy to fold, and simple to patch/reinforce with black tape.
+
+bellow photo
 
 ### Modular Focusing System
 The front and rear standards are independent and modular. They rely on simple tripode hole to attache on existing gear you might already have:
@@ -24,6 +32,8 @@ The front and rear standards are independent and modular. They rely on simple tr
 ### Film Back
 The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dark-slide is never fully remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
 As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme(like reels on the side or other method)
+
+photo du dos demis ouvert avec papier dedans 
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
@@ -43,7 +53,7 @@ but other material could be used if you have the tools or will order cutter part
 ### Raw Materials
 - grey cardboard sheets (3mm preference)
 - Black Canson paper (160-200g)
-- 2x 1/4"-20 tripod mounting plates 
+- 2x plates with standard tripod hole
 - Tracing paper or plexiglass + fine grinding powder
 - Wood glue
 
@@ -56,11 +66,15 @@ but other material could be used if you have the tools or will order cutter part
 - somes flat heavy objects (books) or clamps
 - paintbrush for glue
 
+
+photos de tt les outils nécessaires 
+
+
 ---
 
 ##  Getting the plan
 
-the files for the 6/17.8cm vertion are direcly on the repo on dif ferent format:
+The files for the 6/17.8cm vertion are direcly on the repo on différent format:
 -dxf and svg for laser cut
 -annotated pdf at scale for hand cutting
 (I chose 6/17.8 because it can be cut in 4 from 24/17.8 cm standard photo pàper)
@@ -76,34 +90,38 @@ But if you want any other size, the camera's parts  generated using a parametric
 4. Install [VScode](https://code.visualstudio.com/)
 5. Install python and openscad addon on vscode
 
-(it should be possible to run the programme with fewer programmes)
+(it should be possible to run the programme with fewer instals)
 
 **Running the program:**
-1. Open the script with vs code and open the programme folder inside vscode, modify the variables for your desired camera size and other parameter :
+1. Open the programme folder inside vscode and then the programme file, modify the variables for your desired camera size and other parameter :
    -file_format: Can be `".dxf"`, `".svg"` or `".pdf"`
    -previs = `False` will outpout the files in ordered folder, `True` will generate a .scad to prevew in openSCAD
    -openscad_path = put the path to the openscad .exe like `"D:\Programmes\openscad\openscad.exe"`
-   -film_height = height of the film in mm (like any other value) you can intervert height and lenght to put the film holder slit on the side
-   -film_length = 
+   -film_height = height of the film in mm you can intervert height and lenght to put the film holder slit on the side
+   -film_length = //
    -wall_thickness = wall thikness is the thiknesse of the wall, "light joint" and locking bars
    -sheet_thickness = is the thikness of your grey cardboard 
    -lens_plate_hole_diameter = is the diamiter of the hole to fit your lens 
-   -bypass_hole_too_big = if the hole is too big and would colide with other part(like lens plate locking rode) it will show an arror message directely on the lens plate, but if you know what your doing you can change the parameter from False to True 
+   -bypass_hole_too_big = if the hole is too big and would colide with other part(like lens plate locking rode) it will show an error message directely on the lens plate, but if you know what your doing you can change the parameter from False to True 
    -margin_film = is the margine betwine the side of the film and the wall 
    -tolerance_between_parts = is the tolerences bewine front standard-lens plate and back standard and film holder 
    -tolerance_fine = is the tolerences of the locking mechanisme
-   
+  
+photo des variables 
+
+
+
 3. Run the script.
 4. The program will output in the program location organized folders containing SVG/DXF/pdf files for each slice.
 
-**Understanding the file nomenclature:**
+**file nomenclature:**
 Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
 *(Example: `Front_Standard_3_c.svg`)*
 *   `Front Standard`: The name of the assembly.
 *   `3`: The layer number, counting from the back of the camera to the front (this is the 3rd layer).
 *   `c`: The 3rd piece of this specific layer.
 
-*(Note: I will at some point include a web app to generate these files online without any installation.)*
+*(Note: I will at some point include a web app to generate these files online without any installation, or a standalone python script who can run online.)*
 
 ---
 
@@ -111,7 +129,7 @@ Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
 
 ### 1. Tracing the Panels
 If cutting by hand,you can upload the DXF files to a free viewer like [Materlogic](https://materlogic.com/en/dxf-viewer) to get the exact dimensions. Use a pencil and a set-square to trace each piece onto your cardboard, ensuring the corners are perfectly square and parallel.
-you can also print all pieces on paper and glue (with a light glue spray) the paper on grey cardboard to see where to cut directly 
+you can also print all pieces .pdf on paper and glue (with a light glue spray) the paper on grey cardboard to see where to cut directly 
 
 ### 2. Cutting the Cardboard
 **Safety first:** Always use a metal ruler. A plastic ruler will catch the blade and cut your fingers. 
@@ -119,8 +137,7 @@ you can also print all pieces on paper and glue (with a light glue spray) the pa
 *   You cane use a utility-knife straight lines (don't forget to snap off or replace blades frequently to get cleaner result).
 *   And an X-Acto knife for detailed edges and precise corners.
 
-
-you can also , if you have one, laser cut everyching, or order them 
+you can also , if you have one, laser cut everyching, or inse an online laser cutting services.
 
 ### 3. Gluing the Assembly
 Wood glue (PVA) is cheap and works perfectly for grey cardboard. 
@@ -153,7 +170,7 @@ The bellows are made from thick black Canson paper.(160-200g)
 ### Durability & Storage
 Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a relatively dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
 
-###Transport 
+### Transport 
 The bellow make the camera relatively compact when folded and with mini tripod, everything can fit in a small camera bag,
 event and ULF vertion, like 8/20 inch,can fit in a bag, with the tripod on the side, and other accessories in a small bag.
 
