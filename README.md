@@ -127,7 +127,7 @@ Files are named using the following logic: `PartName_SliceHeight_PieceIndex.svg`
 *   `3`: The layer number, counting from the back of the camera to the front (this is the 3rd layer).
 *   `c`: The 3rd piece of this specific layer.
 
-*(Note: I will at some point include a web app to generate these files online without any installation, or a standalone python script who can run online.)*
+*(Note: I will at some point include a web app to generate these files online without any installation, or a standalone python script who can run in online python executor)*
 
 ---
 
@@ -180,11 +180,11 @@ The bellows are made from thick black Canson paper.(160-200g)
 Because the camera is made of paper and cardboard, it is not weather-sealed and must be stored in a relatively dry environment. However, its material makes it easy to repair, patch, or reglue if damaged.
 
 ### Transport 
-The bellow make the camera relatively compact when folded and with mini tripod, everything can fit in a small camera bag,
-event and ULF vertion, like 8/20 inch,can fit in a bag, with the tripod on the side, and other accessories in a small bag.
+The bellow make the camera relatively compact when folded and with mini tripod, the 6/18cm version can fit in a small camera bag,
+even the ULF vertion, like 20/50cm,can fit in a big bag, with the tripod on the side, and other accessories in a small bag.
 
 photo de l'appareil dans le petit sac, a l'intérieur et extérieur 
-
+ulf + 6/18
 
 ### Film Recommendations
 Because the camera currently relies on a lens cap instead of a mechanical shutter (for now), exposure times need to be long. So a verry low iso is helpful.
@@ -209,13 +209,15 @@ make public + Reddit
 ---
 
 
--add eather a print bellow specification or .txt with calculations 
+-add a option to create .txt with bellow parameters to input on the online calculator
+
 
 -Allow front standard size to be independent from the back in size (for now it is equal to rear standard height).
 
--Integrate a bellows pattern generator directly into the Python script. (for now, paid online generator )
+-Integrate a bellows pattern generator directly into the Python script. (for now, paid online generator) or find an other way
 
--include diy lens plans using standard achromatic lenses (in a general section about lenses) and do a housing disinge practical to hand cut (not too mutch round peces)
+-include diy lens section, 
+using standard achromatic lenses (in a general section about lenses) and do a housing disinge practical to hand cut (not too mutch round peces)
 
 -Design and integrate a guillotine shutter with parametric variables for different shutter speed.
 
@@ -223,7 +225,7 @@ make public + Reddit
 
 -Host a web-based version of the generator(or juste recommand a web python interface to juste paste the programme inside (but how file work? need to compressed before?).
 
--add variable for laser with compensation 
+-add variable for laser with compensation ?
 
 -do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature:
 _film
@@ -232,7 +234,7 @@ _second_wall(-tolerence)
 _third_wall(-tolerence) 
 
 
--do a film back who use 120 film (only using 2 part (sandwiches using back locking barr?))
+-do a film back who use 120 film (only using 2 part (sandwiches using back locking barr?) and advance the film by pushing directly the backing paper?
 
 
 -message the guy form the online bellow calculator to see if if I can put the pattern for the 6/17.8 freely on the repo (and pre cut it in multiple A4 easy to align with alignment lines)
@@ -241,6 +243,5 @@ _third_wall(-tolerence)
 
 - different side finish ? like whave patern? 
 
-shlague maxing le film holder et le faite avancer pas avec des knobs mais en faisant glisser avec le doigt????
 
 ---
