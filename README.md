@@ -16,7 +16,10 @@ joli photo du truc
 To keep things accessible, the camera body is  built entirely from stacked layers of grey cardboard glued together with wood glue(but other material could be used). The core design is parametric, meaning it can be scaled to any size (My first prototype was 8x20 inches).
 And because the desing is simple it can be easely modified/adapted.
 
-
+### Size consideration
+as for the size, I personaly use photo paper cut in the legnth so cameras I have built where 
+6/17.8 (a quarter of 24/17.8cm paper) 
+20/50 (half of 40/50 paper) 
 
 
 ### Paper Bellows
@@ -33,7 +36,10 @@ The front and rear standards are independent and modular. They rely on simple tr
 The film back features a simple dark slide locking mechanism consisting of two bars loxking on the side of the dark slide, to improve light tightnesse, the dark-slide is never fully remove from the back, it is lock on the top edge edge. By default the slit is on top (to avoid putting mass on the side) but you can invert x and y mesurment to put it on the side.
 As for the film monting, it is ment to be held by weak double sided tape (who is quite nice for paper) but feel free to do you own holding machanisme(like reels on the side or other method)
 
+And modding the back is verry easy, like doing an deep back to use objects coated in photo emulsion as film, 
+
 photo du dos demis ouvert avec papier dedans 
+et photo du dos à objects 
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
@@ -185,12 +191,7 @@ Because the camera currently relies on a lens cap instead of a mechanical shutte
 
 I mostly use photo paper developed in reversal chemistry, (permanganates potatium + sulfuric acide bleach) this give a verry nice way to present and encadre the pictur who where directely in the camera.
 
-I have built 2 size for me, 
-
-an ulf 50/20 cm cut by hand (≈8/20 inch)who use 40/50 paper cut in half.
-
-And a smaller 6/17.8 laser cutted (who use 24/17.8 cut in four)
-
+As for the use of 120 film, I haven't planned yet to build a film holder who can advance the film, so you need to cut it in section and shoot them one by one.
 
 ---
 
@@ -201,6 +202,7 @@ To Do
     
 -juste rename the "export" folder to be like 
 "export_svg_60_170"
+
 
 ---
 make public + Reddit 
@@ -238,5 +240,7 @@ _third_wall(-tolerence)
 -make a pdf who name every measurement and make the programme create a txt with every measurement 
 
 - different side finish ? like whave patern? 
+
+shlague maxing le film holder et le faite avancer pas avec des knobs mais en faisant glisser avec le doigt????
 
 ---
