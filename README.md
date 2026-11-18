@@ -13,7 +13,7 @@ joli photo du truc
 ##  Features & Design
 
 ### Build Principle
-To keep things accessible, the camera body is  built entirely from stacked layers of grey cardboard glued together with wood glue(but other material could be used). The core design is parametric, meaning it can be scaled to any size (My first prototype was 8x20 inches).
+To keep things accessible, the camera body is  built entirely from stacked layers of grey cardboard glued together with wood glue(but other material could be used). The core design is parametric, meaning it can be scaled to any size like sub-miniature to ulf.
 And because the desing is simple it can be easely modified/adapted.
 
 ### Size consideration
@@ -198,7 +198,7 @@ As for the use of 120 film, I haven't planned yet to build a film holder who can
 To Do
 
 -clean the read me 
-    add pictures, add 6/17 results 
+    add pictures, shooter du 6/18
     
 -juste rename the "export" folder to be like 
 "export_svg_60_170"
