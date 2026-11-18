@@ -38,8 +38,8 @@ As for the film monting, it is ment to be held by weak double sided tape (who is
 
 And modding the back is verry easy, like doing an deep back to use objects coated in photo emulsion as film, 
 
-photo du dos demis ouvert avec papier dedans 
-et photo du dos à objects 
+- photo du dos demis ouvert avec papier dedans 
+- et photo du dos à objects 
 
 ### Interchangeable Lens Boards
 The lens board is extremely simple: a square of grey cardboard with a hole cut in the center. 
