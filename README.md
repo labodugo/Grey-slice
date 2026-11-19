@@ -17,9 +17,7 @@ To keep things accessible, the camera body is  built entirely from stacked layer
 And because the desing is simple it can be easely modified/adapted.
 
 ### Size consideration
-as for the size, I personaly use photo paper cut in the legnth so cameras I have built where 
-6/17.8 (a quarter of 24/17.8cm paper) 
-20/50 (half of 40/50 paper) 
+In this repo, you will find already exported file, I chose the size 6/17.8cm because it's a quarter of a 24/17.8 cm photo paper
 
 
 ### Paper Bellows
