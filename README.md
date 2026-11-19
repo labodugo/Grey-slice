@@ -113,8 +113,7 @@ But if you want any other size, the camera's parts  generated using a parametric
    -tolerance_fine = is the tolerences of the locking mechanisme
  
 
-when in presvis= true, pour choisir quelle pièce afficher ou cacher, 
-
+when in presvis= true, pour choisir quelle pièce afficher ou cacher, il faut mettre un # au début des lignes que vous voulez cacher, et faire attention à bien aller à la bonne section du code, mettre des hashtag sur cette partie cachera uniquement la pièce en mode presvisulaisation, quand le presvise est true, toutes les pièces sont exporter
 
 
 
