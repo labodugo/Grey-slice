@@ -113,8 +113,13 @@ But if you want any other size, the camera's parts  generated using a parametric
    -tolerance_fine = is the tolerences of the locking mechanisme
  
 
-photo des variables 
+when in presvis= true, pour choisir quelle pièce afficher ou cacher, 
 
+
+
+
+photo des variables 
+screen de la pres visu openscad 
 
 
 3. Run the script.
@@ -216,22 +221,31 @@ make public + Reddit
 
 -Integrate a bellows pattern generator directly into the Python script. (for now, paid online generator) or find an other way
 
--include diy lens section, 
+- (for me)include m'y diy lens plans 
 using standard achromatic lenses (in a general section about lenses) and do a housing disinge practical to hand cut (not too mutch round peces)
 
--Design and integrate a guillotine shutter with parametric variables for different shutter speed.
+-(for me)Design and integrate a guillotine shutter with parametric variables for different shutter speed.
 
 -reright to be only python who right Svg file directly. 
 
--Host a web-based version of the generator(or juste recommand a web python interface to juste paste the programme inside (but how file work? need to compressed before?).
+-Host a web-based version of the generator(or juste recommand a web python interface to juste paste the programme inside?
 
 -add variable for laser with compensation ?
 
--do grand variable to make creating new part faster and easier to make? (like "fW_m_w1_w2_T" pour filmwith+margined+2wall-tolerences) or better nomenclature:
-_film
-_first_wall
-_second_wall(-tolerence)
-_third_wall(-tolerence) 
+-do grand variable to make creating new part faster and easier to make? (like "fW_m_2w_T" pour filmwith+margine+2wall-tolerences) or better nomenclature:
+X_film       
+{film legnth}
+
+X_first_wall       
+{film legnth + margine}
+
+X_second_wall-tolerence
+{film legnth + margine + wall thickness - tolerence}
+
+X_third_wall
+{film legnth + margine + wall thickness + wall thickness}
+ 
+(first second third wall from the inside)
 
 
 -do a film back who use 120 film (only using 2 part (sandwiches using back locking barr?) and advance the film by pushing directly the backing paper?
